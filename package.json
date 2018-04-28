@@ -1,0 +1,34 @@
+{
+  "name": "90dayschallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "bcryptjs": "*",
+    "body-parser": "^1.17.2",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "hbs": "^4.0.1",
+    "mongodb": "*",
+    "mongoose": "^4.11.6",
+    "mongoose-validators": "^0.1.0",
+    "nodemailer": "^4.1.0",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "request": "^2.81.0"
+  }
+}
